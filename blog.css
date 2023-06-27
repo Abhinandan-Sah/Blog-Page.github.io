@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+header{
+    margin: 0.7rem 2rem 2rem 2rem;
+    background-color: rgb(252, 255, 255);
+    display: flex; 
+    justify-content: space-between;
+    
+    
+}
+
+header h1{
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+header a{
+    font-size: 1.3rem;
+    color: blue;
+}
+
+#icon{
+    font-size: 1.5rem;
+}
+
+
+
+.container{
+    margin: 0 3rem 2rem 3rem;
+    display: grid;
+    grid-template-columns: 72% 25%;
+    grid-template-rows: 60rem 10rem;
+    grid-template-areas: 
+    "cnt aside"
+    "ft ft"
+    ;
+    row-gap: 3%;
+    column-gap: 1%;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+.items{
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid brown; */
+}
+
+#cnt{
+    grid-area: cnt;
+}
+
+#aside{
+    grid-area: aside;
+}
+
+#ft{
+    grid-area: ft;
+    display: inline;
+
+    
+}
+
+.inside-container{
+    height: 100%;
+    /* background-color: rgb(225, 177, 115); */
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1%;
+    overflow: hidden;
+    /* margin: 25px; */
+}
+
+.blog{
+    /* background-color: blueviolet; */
+    background-color: rgb(255, 255, 255);
+}
+
+.btn{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 1rem;
+    /* background-color: rgb(147, 147, 201); */
+    color: blue;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn a{
+    
+    font-size: 22px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* #bottom{
+
+    color: blue;
+    border: 1px solid blue;
+    font-size: 23px;
+    border-radius: 5px;
+} */
